@@ -2,7 +2,7 @@
 <!DOCTYPE HTML> <!-- Esse é o DTD do HTML 5 -->
 <!-- O DTD é o document type fefinitio, ele diz a versão do HTML ao browser que deve ser carregada -->
 
-<html>
+<html lang="pt-br">
 	<!-- primeiro filho do html. head -->
 	<head>
 		<!--Tag de meta-dados, filhas de head. meta-->
@@ -10,7 +10,7 @@
 		<meta charset="UTF-8"/> 
 		<!--A viewport faz parte da responsividade da pagina -->
 		<meta name="viewport" content="width:device-width, initial-scale=1.0"/>
-		<title>EXEMPLO</title>
+		<title>Página Básica</title>
 	</head>
 	<!--segundo filho do HTML. body-->
 	<body>
@@ -23,7 +23,7 @@
 				<nav>
 
 					<ul>
-						<li> <a href="#">Home</a> </li>
+						<li> <a href="#">Ajuda</a> </li>
 						<li> <a href="#">Sobre</a> </li>
 						<li> <a href="#">Contato</a> </li>
 					</ul>
@@ -31,6 +31,39 @@
 				</nav>
 
 			</header>
+
+			<section>
+				<div>
+					<h2>Ajuda</h2>
+					<p><span>AJUDA</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ad natus dignissimos? Ipsum temporibus nam eligendi non earum adipisci molestiae quaerat, laborum tempora fugiat dolores consequatur? Quasi vero ipsa similique?</p>
+					<a href="#">Mais...</a>
+				</div>
+				<div>
+					<h2>Sobre</h2>
+					<p><span>SOBRE</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ad natus dignissimos? Ipsum temporibus nam eligendi non earum adipisci molestiae quaerat, laborum tempora fugiat dolores consequatur? Quasi vero ipsa similique?</p>
+					<a href="#">Mais...</a>
+				</div>
+					<h2>Contato</h2>
+					<form>
+						<fieldset>
+							<legend>Contato</legend>
+							<div>
+								<label for="idEmail">Emal</label>
+								<input type="text" name="txtEmail" id="idEmail" placeholder="Digite seu e-mail">
+							</div>
+							<div>
+								<label for="idTel">Telefone</label>
+								<input type="tel" name="txtTel" id="idTel" placeholder="Digite seu Telefone">
+							</div>
+							<div>
+								<button type="button">Enviar</button>
+							</div>
+
+						</fieldset>
+						
+					</form>
+				</div>
+			</section>
 			<!-- header>nav>ul>li*3>a[href="#"]{Item - $} emmet -->
 			<header>
 				<nav>
@@ -41,7 +74,6 @@
 					</ul>
 				</nav>
 			</header>
-
 
 		</div>
 
